@@ -1,0 +1,10 @@
+:root {
+  --logo-color: rgb(241 100 30);
+  --black-color: black;
+  --white-color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
