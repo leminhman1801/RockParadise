@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2lp70qetaRzv-WZxzQK3KwKb23Ythgv_lcoS-C0GAIp6dhgVUEbcDRVh8"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+    ></script>
+  </head>
+  <style>
+    img {
+      height: 1;
+    }
+    .btn-container {
+      position: relative;
+    }
+    .btn-slide {
+      position: absolute;
+      justify-content: space-between !important;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      z-index: 3 !important;
+    }
+    .btn-prev,
+    .btn-next {
+      width: 75px;
+      padding: 25px;
+    }
+  </style>
+  <body>
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselMultiItemExample"
+      class="carousel slide carousel-dark text-center btn-container"
+      data-mdb-ride="carousel"
+    >
+      <!-- Controls -->
+      <div class="d-flex justify-content-center mb-4 btn-slide">
+        <button
+          class="carousel-control-prev position-relative btn-prev"
+          type="button"
+          data-mdb-target="#carouselMultiItemExample"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next position-relative btn-next"
+          type="button"
+          data-mdb-target="#carouselMultiItemExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Inner -->
+      <div class="carousel-inner py-4">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-cat.webp"
+                    class="card-img-top"
+                    alt="Waterfall"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-zodiac.webp"
+                    class="card-img-top"
+                    alt="Sunset Over the Sea"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-pendulum.webp"
+                    class="card-img-top"
+                    alt="Sunset Over the Sea"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-moon.webp"
+                    class="card-img-top"
+                    alt="Sunset over the Sea"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-12">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/1-IMG_E8446_360x.JPG?v=1569204107"
+                    class="card-img-top"
+                    alt="Fissure in Sandstone"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/3-thumbnail_IMG_5654_360x.jpg?v=1648852416"
+                    class="card-img-top"
+                    alt="Storm Clouds"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/3-thumbnail_IMG_5654_360x.jpg?v=1648852416"
+                    class="card-img-top"
+                    alt="Hot Air Balloons"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-12gem.webp"
+                    class="card-img-top"
+                    alt="Hot Air Balloons"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/thumbnail_IMG_8239_360x.jpg?v=1655926911"
+                    class="card-img-top"
+                    alt="Peaks Against the Starry Sky"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="./images/bestSeller-bowl.webp"
+                    class="card-img-top"
+                    alt="Bridge Over Water"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/IMG_3727_3_360x.jpg?v=1659250320"
+                    class="card-img-top"
+                    alt="Purbeck Heritage Coast"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1552/6795/products/thumbnail_IMG_8239_360x.jpg?v=1655926911"
+                    class="card-img-top"
+                    alt="Bridge Over Water"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Zodiac Crystal <br />
+                      <span>99$</span>
+                    </p>
+                    <a href="#!" class="btn btn-primary">Buy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inner -->
+    </div>
+    <!-- Carousel wrapper -->
+    <div class="modal-gallery">
+      <div class="gallery-content"></div>
+    </div>
+  </body>
+</html>

@@ -10,6 +10,64 @@
       href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2lp70qetaRzv-WZxzQK3KwKb23Ythgv_lcoS-C0GAIp6dhgVUEbcDRVh8"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
   </head>
-  <body></body>
+  <style>
+    .footer-input {
+      border: none;
+      border-bottom: 2px solid black;
+      padding: 10px 20px 10px 0;
+    }
+    p {
+      padding-bottom: 10px;
+    }
+    .footer-company li,
+    .footer-legacy li {
+      color: rgb(0, 0, 211);
+      list-style-type: none;
+      padding: 5px 0;
+    }
+  </style>
+  <body>
+    <div class="grid wide">
+      <div class="row">
+        <div class="c-3">
+          <div class="footer-company">
+            <p>Company</p>
+            <ul>
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>Affiliate Program</li>
+              <li>Press</li>
+            </ul>
+          </div>
+        </div>
+        <div class="c-4">
+          <div class="footer-legacy">
+            <p>LEGAL</p>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Refund Policy</li>
+              <li>CCPA Opt-Out</li>
+              <li>Terms of Service</li>
+            </ul>
+          </div>
+        </div>
+        <div class="c-4">
+          <p>SIGN UP AND SAVE</p>
+          <p>
+            Subscribe to get special offers, free giveaways, and
+            once-in-a-lifetime deals.
+          </p>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter your email"
+            class="footer-input"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

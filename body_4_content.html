@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/body_content.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2lp70qetaRzv-WZxzQK3KwKb23Ythgv_lcoS-C0GAIp6dhgVUEbcDRVh8"
+    />
+    <script src="./body-content.js" defer></script>
+  </head>
+  <body>
+    <div class="body-content">
+      <div class="grid wide">
+        <div class="row">
+          <div class="col c-2">
+            <div class="body-filter">
+              <h3 class="title-categories">
+                <i class="fa-sharp fa-solid fa-list icon-list"></i> All
+                Categories
+              </h3>
+              <div class="detail-filter">
+                <ul class="color-list">
+                  <h4>Color</h4>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-color="allColor" class="active">
+                        All Color
+                      </button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-color="white">White</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-color="red">Red</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-color="green">Green</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-color="pink">Pink</button>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="size-list">
+                  <h4>Carat size</h4>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-size="allSize">All Size</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-size="0.5-carat">0.5</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-size="1-carat">1</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-size="2-carat">2</button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="btn-filter">
+                      <button type-size="3-carat">3</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col c-10">
+            <div class="body-product">
+              <div class="filter-brand">
+                <div class="row">
+                  <p>Brand</p>
+                  <div class="btn-brand-items">
+                    <button
+                      value="Swarovski"
+                      class="btn-brand"
+                      type-brand="Swarovski"
+                    >
+                      Swarovski
+                    </button>
+                    <button
+                      value="Tiffany"
+                      class="btn-brand"
+                      type-brand="Tiffany"
+                    >
+                      Tiffany
+                    </button>
+                    <button
+                      value="Pandora"
+                      class="btn-brand"
+                      type-brand="Pandora"
+                    >
+                      Pandora
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-list">
+                <div class="row">
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="pink"
+                    type-size="3-carat"
+                    type-brand="Swarovski"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="white"
+                    type-size="2-carat"
+                    type-brand="Tiffany"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="green"
+                    type-size="1-carat"
+                    type-brand="Pandora"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="red"
+                    type-size="0.5-carat"
+                    type-brand="Swarovski"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="green "
+                    type-size="1-carat"
+                    type-brand="Tiffany"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="white"
+                    type-size="3-carat"
+                    type-brand="Pandora"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="white"
+                    type-size="2-carat"
+                    type-brand="Swarovski"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="red"
+                    type-size="0.5-carat"
+                    type-brand="Tiffany"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="green"
+                    type-size="0.5-carat"
+                    type-brand="Pandora"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="col l-2-4 product-item"
+                    type-color="pink"
+                    type-size="1-carat"
+                    type-brand="Swarovski"
+                  >
+                    <img
+                      src="./images/Agates.webp"
+                      alt=""
+                      class="product-img"
+                    />
+                    <p>Zodiac Crystal Set</p>
+                    <div class="product-price"><span>99.000</span></div>
+
+                    <div class="product-rating">
+                      <span class="star" onclick="rateProduct(this, 1)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 2)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,3)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this,4)"
+                        >&#9733;</span
+                      >
+                      <span class="star" onclick="rateProduct(this, 5)"
+                        >&#9733;</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
