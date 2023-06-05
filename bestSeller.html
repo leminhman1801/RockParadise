@@ -17,44 +17,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/bestSeller.css" />
     <!-- MDB -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
     ></script>
   </head>
-  <style>
-    h1 {
-      text-align: center;
-    }
-    img {
-      height: 1;
-    }
-    .btn-container {
-      position: relative;
-    }
-    .btn-slide {
-      position: absolute;
-      justify-content: space-between !important;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      z-index: 3 !important;
-    }
-    .btn-prev,
-    .btn-next {
-      width: 75px;
-      padding: 25px;
-    }
-  </style>
+  <style></style>
   <body>
-    <h1>Best Seller</h1>
     <div
       id="carouselMultiItemExample"
-      class="carousel slide carousel-dark text-center btn-container"
+      class="carousel slide carousel-dark text-center bestSeller-container"
       data-mdb-ride="carousel"
     >
+      <h1>Best Seller</h1>
       <!-- Controls -->
       <div class="d-flex justify-content-center mb-4 btn-slide">
         <button
@@ -87,7 +65,7 @@
                   <img
                     src="./images/bestSeller-cat.webp"
                     class="card-img-top"
-                    alt="Waterfall"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -105,7 +83,7 @@
                   <img
                     src="./images/bestSeller-zodiac.webp"
                     class="card-img-top"
-                    alt="Sunset Over the Sea"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -122,7 +100,7 @@
                   <img
                     src="./images/bestSeller-pendulum.webp"
                     class="card-img-top"
-                    alt="Sunset Over the Sea"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -139,7 +117,7 @@
                   <img
                     src="./images/bestSeller-moon.webp"
                     class="card-img-top"
-                    alt="Sunset over the Sea"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -164,7 +142,7 @@
                   <img
                     src="https://cdn.shopify.com/s/files/1/1552/6795/products/1-IMG_E8446_360x.JPG?v=1569204107"
                     class="card-img-top"
-                    alt="Fissure in Sandstone"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -200,7 +178,7 @@
                   <img
                     src="https://cdn.shopify.com/s/files/1/1552/6795/products/3-thumbnail_IMG_5654_360x.jpg?v=1648852416"
                     class="card-img-top"
-                    alt="Hot Air Balloons"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -217,7 +195,7 @@
                   <img
                     src="./images/bestSeller-12gem.webp"
                     class="card-img-top"
-                    alt="Hot Air Balloons"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -242,7 +220,7 @@
                   <img
                     src="https://cdn.shopify.com/s/files/1/1552/6795/products/thumbnail_IMG_8239_360x.jpg?v=1655926911"
                     class="card-img-top"
-                    alt="Peaks Against the Starry Sky"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -260,7 +238,7 @@
                   <img
                     src="./images/bestSeller-bowl.webp"
                     class="card-img-top"
-                    alt="Bridge Over Water"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -278,7 +256,7 @@
                   <img
                     src="https://cdn.shopify.com/s/files/1/1552/6795/products/IMG_3727_3_360x.jpg?v=1659250320"
                     class="card-img-top"
-                    alt="Purbeck Heritage Coast"
+                    alt=""
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -295,7 +273,7 @@
                   <img
                     src="https://cdn.shopify.com/s/files/1/1552/6795/products/thumbnail_IMG_8239_360x.jpg?v=1655926911"
                     class="card-img-top"
-                    alt="Bridge Over Water"
+                    alt=" "
                   />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -315,8 +293,60 @@
       <!-- Inner -->
     </div>
     <!-- Carousel wrapper -->
-    <div class="modal-gallery">
-      <div class="gallery-content"></div>
+    <div class="grid modal-gallery">
+      <i
+        class="fa-duotone fa-xmark btn-close"
+        style="--fa-secondary-opacity: 1"
+      ></i>
+      <div class="gallery-content">
+        <div class="row">
+          <div class="c-o-3 c-6">
+            <div class="gallery-main">
+              <img
+                src="./images/Chakra.webp"
+                alt=""
+                class="gallery-img gallery-img-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="c-o-3 c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div>
+          <div class="c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div>
+          <div class="c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div>
+          <div class="c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div>
+          <div class="c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div>
+          <div class="c-1">
+            <div class="gallery-sub">
+              <img src="./images/Chakra.webp" alt="" class="gallery-img" />
+            </div>
+          </div> -->
+          <div class="thumbnail-images">
+            <!-- Thumbnails for the additional images -->
+          </div>
+        </div>
+      </div>
     </div>
   </body>
+  <script src="./bestSeller.js" defer></script>
 </html>
