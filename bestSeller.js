@@ -137,7 +137,25 @@ const infoRockParadise = [
     ],
   },
 ];
-infoRockParadise.forEach((info) => {});
+infoRockParadise.forEach((info) => {
+  const cardImg = document.createElement("img");
+  const cardTitle = document.createElement("p");
+
+  const cardBody = document.createElement("div");
+  const cardPrice = document.createElement("span");
+
+  cardPrice.innerText = info.price;
+
+  cardTitle.innerText = info.title;
+  cardTitle.className = "card-title";
+
+  cardBody.className = "card-body";
+
+  cardImg.setAttribute("src", info.src);
+  cardImg.className = "card-img-top";
+
+  cardBody.appendChild(cardTitle);
+});
 // Add event listeners to each carousel item
 
 carouselItems.forEach((item) => {
