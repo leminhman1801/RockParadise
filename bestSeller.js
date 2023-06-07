@@ -8,153 +8,205 @@ const infoRockParadise = [
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
-
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem2",
-      "./images/candyGem2",
-      "./images/candyGem2",
-      "./images/candyGem2",
-      "./images/candyGem2",
-      "./images/candyGem2",
+      "./images/candyGem2.webp",
+      "./images/candyGem2.webp",
+      "./images/candyGem2.webp",
+      "./images/candyGem2.webp",
+      "./images/candyGem2.webp",
+      "./images/candyGem2.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
   {
     title: "Zodiac Crystal",
     price: "99$",
-    src: "./images/candyGem0",
+    src: "./images/candyGem0.webp",
     subSrc: [
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
-      "./images/candyGem1",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+    ],
+  },
+  {
+    title: "Zodiac Crystal",
+    price: "99$",
+    src: "./images/candyGem0.webp",
+    subSrc: [
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+    ],
+  },
+  {
+    title: "Zodiac Crystal",
+    price: "99$",
+    src: "./images/candyGem0.webp",
+    subSrc: [
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
+      "./images/candyGem1.webp",
     ],
   },
 ];
-infoRockParadise.forEach((info) => {
+// const infoRockParadise1 = infoRockParadise.slice(0, 4);
+// const infoRockParadise2 = infoRockParadise.slice(4, 9);
+// const infoRockParadise3 = infoRockParadise.slice(9);
+
+const rows = [
+  document.getElementById("row1"),
+  document.getElementById("row2"),
+  document.getElementById("row3"),
+];
+console.log(infoRockParadise);
+infoRockParadise.forEach((info, index) => {
+  const container = document.createElement("div");
+  const cardContainer = document.createElement("div");
+  const cardContent = document.createElement("div");
   const cardImg = document.createElement("img");
-  const cardTitle = document.createElement("p");
-
   const cardBody = document.createElement("div");
+  const cardTitle = document.createElement("p");
   const cardPrice = document.createElement("span");
-
+  const cardBtn = document.createElement("a");
+  console.log(index);
   cardPrice.innerText = info.price;
 
-  cardTitle.innerText = info.title;
+  cardTitle.innerText = info.title + "<br/>";
   cardTitle.className = "card-title";
+
+  cardBtn.href = "#!";
+  cardBtn.className = "btn btn-primary";
 
   cardBody.className = "card-body";
 
   cardImg.setAttribute("src", info.src);
   cardImg.className = "card-img-top";
 
+  cardTitle.appendChild(cardPrice);
   cardBody.appendChild(cardTitle);
+  cardBody.appendChild(cardBtn);
+
+  cardContent.className = "card";
+  cardContent.appendChild(cardImg);
+  cardContent.appendChild(cardBody);
+
+  cardContainer.className = "col-lg-3 mb-4 mb-lg-0 d-none d-lg-block";
+  cardContainer.appendChild(cardContent);
+
+  rows[Math.floor(index / 4)].appendChild(cardContainer);
 });
 // Add event listeners to each carousel item
 
@@ -175,7 +227,7 @@ carouselItems.forEach((item) => {
     // Create 7 random thumbnail images
     // Generate a random image source (replace with your own image sources)
     for (let i = 0; i < 7; i++) {
-      const randomImageSrc = `./images/candyGem${i}.webp`;
+      const randomImageSrc = `./images/candyGem$.webp{i}.webp`;
       console.log(randomImageSrc);
       thumbnailImageSources.push(randomImageSrc);
     }
